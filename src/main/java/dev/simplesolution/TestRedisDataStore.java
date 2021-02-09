@@ -23,7 +23,7 @@ public class TestRedisDataStore implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		User user = new User();
-		user.setId(100L);
+		user.setId(1800L);
 		user.setUsername("john");
 		user.setFirstName("John");
 		user.setLastName("Doe");
